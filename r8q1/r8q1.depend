@@ -22,3 +22,26 @@
 1508854928 source:/home/aluno/Documentos/roteiro8/r8q1/src/Conta.cpp
 	"Conta.h"
 
+1508934618 source:/home/henrique/Documentos/roteiro8/r8q1/main.cpp
+	<iostream>
+	"Conta.h"
+	"ContaEspecial.h"
+
+1508934618 /home/henrique/Documentos/roteiro8/r8q1/include/Conta.h
+	"IConta.h"
+	<iostream>
+
+1508933537 /home/henrique/Documentos/roteiro8/r8q1/include/IConta.h
+
+1508933537 /home/henrique/Documentos/roteiro8/r8q1/include/ContaEspecial.h
+	"Conta.h"
+
+1508933537 source:/home/henrique/Documentos/roteiro8/r8q1/src/Conta.cpp
+	"Conta.h"
+
+1508933537 source:/home/henrique/Documentos/roteiro8/r8q1/src/ContaEspecial.cpp
+	"ContaEspecial.h"
+
+1508933537 source:/home/henrique/Documentos/roteiro8/r8q1/src/IConta.cpp
+	"IConta.h"
+

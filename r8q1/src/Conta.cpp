@@ -47,7 +47,7 @@ void Conta::definirLimite(){
 void Conta::sacar(double valor){
     if(valor <= (limite + saldo)){
         saldo-=valor;
-        cout<<"Saque: R$ "<<valor;
+        cout<<"Saque: R$ "<<valor<<endl;
     }else{
         cout<<"Limite insuficiente.\n";
     }

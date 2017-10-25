@@ -22,6 +22,7 @@ int main()
     cout << "Digite o saldo do cliente " <<nomeCliente<< endl;
     cin>>saldo;
     c1=Conta(nomeCliente, salarioMensal, saldo, numeroConta);
+    c1.definirLimite();
 
     cout << "***** Cadastrando conta especial *****" << endl;
     cout << "Digite o nome do cliente: " << endl;
@@ -33,6 +34,7 @@ int main()
     cout << "Digite o saldo do cliente " <<nomeCliente<< endl;
     cin>>saldo;
     c2=ContaEspecial(nomeCliente, salarioMensal, saldo, numeroConta);
+    c2.definirLimite();
 
 
     cout<<"*****Conta normal*****\n";

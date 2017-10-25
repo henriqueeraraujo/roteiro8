@@ -32,7 +32,7 @@ class Conta : public IConta
         string getnumeroConta();
         void setnumeroConta(string);
 
-        void definirLimite();
+        virtual void definirLimite();
 
         void sacar(double valor);
         void depositar(double valor);
