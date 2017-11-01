@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1509408546 source:/home/henrique/Documentos/roteiro8/r8q2/main.cpp
+	<iostream>
+
+1509500791 source:/home/henrique/Documentos/roteiro8/r8q2/src/Endereco.cpp
+	"Endereco.h"
+
+1509497554 /home/henrique/Documentos/roteiro8/r8q2/include/Endereco.h
+	<iostream>
+	<string>
+
+1509535062 source:/home/henrique/Documentos/roteiro8/r8q2/src/Imovel.cpp
+	"Imovel.h"
+
+1509535062 /home/henrique/Documentos/roteiro8/r8q2/include/Imovel.h
+	"Endereco.h"
+
+1509535789 source:/home/henrique/Documentos/roteiro8/r8q2/src/Casa.cpp
+	"Casa.h"
+
+1509535062 /home/henrique/Documentos/roteiro8/r8q2/include/Casa.h
+	"Imovel.h"
+
+1509501092 source:/home/henrique/Documentos/roteiro8/r8q2/src/Apartamento.cpp
+	"Apartamento.h"
+
+1509501446 /home/henrique/Documentos/roteiro8/r8q2/include/Apartamento.h
+	"Imovel.h"
+
