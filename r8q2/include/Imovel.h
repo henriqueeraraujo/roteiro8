@@ -14,7 +14,6 @@ class Imovel
     public:
         Imovel();
         virtual string getDescricao()=0;
-        virtual void setDescricao()=0;
         Endereco getEndereco();
         virtual ~Imovel();
 

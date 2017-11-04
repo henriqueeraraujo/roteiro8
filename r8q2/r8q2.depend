@@ -1,6 +1,10 @@
 # depslib dependency file v1.0
-1509408546 source:/home/henrique/Documentos/roteiro8/r8q2/main.cpp
+1509753945 source:/home/henrique/Documentos/roteiro8/r8q2/main.cpp
 	<iostream>
+	"Imovel.h"
+	"Casa.h"
+	"Terreno.h"
+	"Apartamento.h"
 
 1509500791 source:/home/henrique/Documentos/roteiro8/r8q2/src/Endereco.cpp
 	"Endereco.h"
@@ -12,18 +16,24 @@
 1509535062 source:/home/henrique/Documentos/roteiro8/r8q2/src/Imovel.cpp
 	"Imovel.h"
 
-1509535062 /home/henrique/Documentos/roteiro8/r8q2/include/Imovel.h
+1509712199 /home/henrique/Documentos/roteiro8/r8q2/include/Imovel.h
 	"Endereco.h"
 
-1509535789 source:/home/henrique/Documentos/roteiro8/r8q2/src/Casa.cpp
+1509712347 source:/home/henrique/Documentos/roteiro8/r8q2/src/Casa.cpp
 	"Casa.h"
 
-1509535062 /home/henrique/Documentos/roteiro8/r8q2/include/Casa.h
+1509712199 /home/henrique/Documentos/roteiro8/r8q2/include/Casa.h
 	"Imovel.h"
 
-1509501092 source:/home/henrique/Documentos/roteiro8/r8q2/src/Apartamento.cpp
+1509712998 source:/home/henrique/Documentos/roteiro8/r8q2/src/Apartamento.cpp
 	"Apartamento.h"
 
-1509501446 /home/henrique/Documentos/roteiro8/r8q2/include/Apartamento.h
+1509712199 /home/henrique/Documentos/roteiro8/r8q2/include/Apartamento.h
+	"Imovel.h"
+
+1509753983 source:/home/henrique/Documentos/roteiro8/r8q2/src/Terreno.cpp
+	"Terreno.h"
+
+1509712998 /home/henrique/Documentos/roteiro8/r8q2/include/Terreno.h
 	"Imovel.h"
 

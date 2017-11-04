@@ -15,7 +15,6 @@ class Casa : public Imovel
         int getNumeroDeQuartos();
         double getAreaDoTerreno();
         double getAreaConstruida();
-        void setDescricao();
         void setNumeroDePavimentos();
         void setNumeroDeQuartos();
         void setAreaDoTerreno();

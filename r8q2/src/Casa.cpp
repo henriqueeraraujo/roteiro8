@@ -2,9 +2,9 @@
 
 Casa::Casa() : Imovel()
 {
-    //ctor
+    descricao= "Casa";
 }
-string Imovel::getDescricao(){
+string Casa::getDescricao(){
     return descricao;
 }
 int Casa::getNumeroDePavimentos(){
@@ -18,10 +18,6 @@ double Casa::getAreaDoTerreno(){
 }
 double Casa::getAreaConstruida(){
     return areaConstruida;
-}
-void Imovel::setDescricao(){
-    cout<<"Digite a descricao: ";
-    getline(cin, descricao);
 }
 void Casa::setNumeroDePavimentos(){
     cout<<"Digite o Numero de pavimentos: ";
